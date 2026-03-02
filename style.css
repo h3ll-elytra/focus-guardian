@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: #0b0f1a;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+video, canvas {
+  width: 420px;
+  border-radius: 12px;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: #6366f1;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #111827;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
